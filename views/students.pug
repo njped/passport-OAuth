@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div
+    img(src='/static/image/MTECH-Logo.jpg')
+  h1= Student
+  p Welcome to Dashboard, #{user.displayName}
+  div
+    a(href='/') home
+  div
+    a(href='/students/registration') Download Student Registrations
